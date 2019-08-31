@@ -424,7 +424,7 @@ input:-webkit-autofill:focus {
 
 .home-area {
     width: 100%;
-    background: url('images/header-bg.jpg') no-repeat scroll center bottom / cover;
+    /*--background: url('images/header-bg.jpg') no-repeat scroll center bottom / cover;--*/
     padding-top: 26vh;
     color: #ffffff;
     margin-bottom: 100px;
@@ -907,8 +907,7 @@ input:-webkit-autofill:focus {
 }
 
 .subscribe-form {
-    background-color: #ffffff;
-    padding: 60px;
+    padding: 10px;
     border-radius: 5px;
 }
 
@@ -919,7 +918,7 @@ input:-webkit-autofill:focus {
 .subscribe-form form .control {
     width: 100%;
     height: auto;
-    padding: 15px 180px 15px 30px;
+    padding: 10px 10px 10px 10px;
     border-radius: 100px;
     border: 1px solid #fc5e5e;
 }
