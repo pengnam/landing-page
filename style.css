@@ -916,7 +916,7 @@ input:-webkit-autofill:focus {
 }
 
 .subscribe-form form .control {
-    width: 100%;
+    width: 80%;
     height: auto;
     padding: 10px 10px 10px 10px;
     border-radius: 100px;
@@ -926,9 +926,13 @@ input:-webkit-autofill:focus {
 .subscribe-form form .bttn-white {
     position: absolute;
     right: 0;
-    top: 0;
     margin-right: 0;
 }
+
+.bttn-white {
+    top:-5px
+}
+
 
 /*-- 18. Footer-Area --*/
 
