@@ -43,6 +43,26 @@ CSS INDEX
 2. Theme Default CSS
 --------------------*/
 
+
+.ending-area {
+    width: 100%;
+    /*--background: url('images/header-bg.jpg') no-repeat scroll center bottom / cover;--*/
+    color: #ffffff;
+    height: 100px;
+    background: rgb(251, 84, 66);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+.ending-right .right-button a {
+    height:auto;
+    vertical-align: middle;
+    line-height: normal;
+    padding:auto;
+    z-index:-1000;
+}
+
 * {
     outline: none;
 }
@@ -343,7 +363,7 @@ input:-webkit-autofill:focus {
     top: 12px;
 }
 
-.mainmenu-area .right-button a {
+.right-button a {
     color: #ffffff;
     padding: 10px 40px;
     border-radius: 50px;
@@ -355,7 +375,7 @@ input:-webkit-autofill:focus {
     font-size: 14px;
 }
 
-.mainmenu-area .right-button a:hover {
+.right-button a:hover {
     background-color: rgba(255, 255, 255, 1);
     color: #de7676;
 }
